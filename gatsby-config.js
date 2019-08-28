@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Full-Stack Michael",
+    author: "Michael Litchev's Personal Site",
+    description: "My portfolio site for people to see my technical and personal interests."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
