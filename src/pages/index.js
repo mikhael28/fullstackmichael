@@ -10,6 +10,9 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+import pareto from "../assets/images/website-png.png"
+import meetup from "../assets/images/meetup.jpg"
+import geriatric from "../assets/images/geriatric.jpg"
 
 class HomeIndex extends React.Component {
     render() {
@@ -29,47 +32,47 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundColor: `black`}}>
                             <header className="major">
                                 <h3>Pareto</h3>
                                 <p>The Full-Stack Developer Starter Kit</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/pareto" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${meetup})`}}>
                             <header className="major">
                                 <h3>The Full-Stack Apprenticeship</h3>
                                 <p>Lead Developer of React Native Open-Source project in Seattle, WA</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/apprenticeship" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${geriatric})`}}>
                             <header className="major">
                                 <h3>ReverCare (YC S19)</h3>
                                 <p>Consulted to build platform MVP for Y-Combinator Portfolio Company, using React, Node, AWS</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/revercare" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Persisto Labs</h3>
                                 <p>Spending time in the world of Caribbean technology.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/persisto" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Work & Rise</h3>
                                 <p>Lead developer for East African (Ugandan) freelance marketplace.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/workandrise" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>My Previous Life</h3>
                                 <p>Marketing, Product & Political Science</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/history" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
