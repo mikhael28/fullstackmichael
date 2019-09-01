@@ -22,7 +22,7 @@ const ReverCare = (props) => (
                     <header className="major">
                         <h2>Social Work Case Management Software</h2>
                     </header>
-                    <p>The two and a half contract entailed building out a React web application, along with a set of Serverless Node.js API's for accessing MongoDB and a number of peripheral services.</p>
+                    <p>The two and a half month contract entailed building out a React web application, along with a set of Serverless Node.js API's for accessing MongoDB and a number of peripheral services.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
